@@ -1,0 +1,52 @@
+
+using Car.clases;
+
+Carro miCarro = new Carro("NISAN",2022,"Negro",120);
+
+string mensaje;
+
+Console.WriteLine(miCarro.Dameinformacion());
+Console.WriteLine(miCarro.EncenderMotor());
+
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+ Console.WriteLine(mensaje);
+
+mensaje = miCarro.DesAcelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+mensaje = miCarro.DesAcelerar();
+  Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+  Console.WriteLine(mensaje);
+
+mensaje = miCarro.Frenar();
+  Console.WriteLine(mensaje);
+
+Console.WriteLine(miCarro.GetVelocidadActual());
+
+Console.WriteLine(miCarro.EncenderMotor());
+   Console.WriteLine(miCarro.ApagarMotor());
+Console.WriteLine(miCarro.EncenderMotor());
+
+Console.WriteLine(miCarro.Bocina());
